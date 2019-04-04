@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Timer 
+{
+font-size: 55px;
+font-style: italic;
+}
+.Letter {color:black}
+.Decrement 
+{color:white;
+padding: 20px 36px;
+border-radius: 50%;
+cursor: pointer;
+border: solid 2px gray;
+background-color:red;
+text-decoration:none;
+margin:4px 2px;
+margin-right: 15px;
+}
+.Decrement:hover{
+  font-size: 20px;
+  background-color: gray;
+}
+.Increment 
+{color:white;
+border-radius: 50%;
+padding: 20px 36px;
+cursor: pointer;
+border: solid 2px gray;
+background-color:green;
+text-decoration:none;
+margin:4px 2px;
+margin-left: 15px;
+}
+.Increment:hover{
+  font-size: 20px;
+  background-color: gray;
+}
+.Hide
+{border-radius: 50%;
+padding:20px 38px;background-color: yellow;
+font-family: algerian;
+font-size: 22px;
+margin-top: 10px;
+cursor: pointer;
+}
+.Reset
+{
+background-color: #80EAFF;
+cursor: pointer;
+padding: 16px 32px;
+margin-left: 10px;
+font-family: algerian;
+font-size: 20px;
+}
+.Start
+{
+background-color: #80EAFF;
+cursor: pointer;
+padding: 16px 32px;
+margin-right: 10px;
+font-family: algerian;
+font-size: 20px;
+}
+.Pause
+{
+background-color: orange;
+padding: 16px 32px;
+margin-left: 10px;
+font-family: algerian;
+font-size: 20px;
+font-style: italic;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
